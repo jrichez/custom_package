@@ -21,10 +21,11 @@ def encoder(dataset, encoder=LabelEncoder()):
         dataset_cop[i] = le.fit_transform(dataset_cop[i]) 
     return dataset_cop
 
-def get_data(dataset):
+def get_data(dataset, train_id=1460):
     """Split the train set and the test set and divide the train set between dependant variable and independant features
     
     :param dataset: dataframe
+    :param train_id : number of observations in the train set
     :return: the dependant variable, the independant features of the train set and the test set
 
     >>> get_data(df)

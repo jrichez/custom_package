@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.cfg
-custom_func/custom_func.egg-info/PKG-INFO
-custom_func/custom_func.egg-info/SOURCES.txt
-custom_func/custom_func.egg-info/dependency_links.txt
-custom_func/custom_func.egg-info/top_level.txt
